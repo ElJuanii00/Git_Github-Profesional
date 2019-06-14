@@ -1,7 +1,6 @@
 body{
-    color: black;
+    /* color: black; */
     margin: 0;
-    /* text-align: center; */
     font-family: sans-serif; 
     font-size: 10px;
 }
@@ -11,14 +10,42 @@ body{
     width: 70%;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    border: 1px solid black;
-    padding: 2rem;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+
+.cabecera{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    text-align: left;
+    background-color: #E8DB7D;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.35);
+    color: rgb(248, 248, 248);
+}
+
+.cabecera p{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.cabecera p:nth-of-type(1){
+    font-weight: bold;
+}
+
+.cabecera p:nth-of-type(2){
+    margin-left: 2rem;
+}
+
+.post{
+    padding: 2rem 1rem;
 }
 
 .post h1{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .post p{
