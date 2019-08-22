@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: Arial, sans-serif; 
     font-size: 10px;
+    background-color: rgb(32, 32, 32);
 }
 
 .container{
@@ -24,7 +25,12 @@ body{
     text-align: left;
     background-color: rgb(155, 232, 125);
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.35);
-    color: #333;
+    color: rgb(250, 250, 250);
+}
+
+.cabecera img{
+    width: 4rem;
+    margin-right: 1rem;
 }
 
 .cabecera p{
@@ -42,6 +48,7 @@ body{
 
 .post{
     padding: 2rem 1rem;
+    background-color: rgb(255, 255, 255);
 }
 
 .post h1{
